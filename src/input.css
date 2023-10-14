@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.display-none{
+    @apply hidden;
+}
+.circle{
+    width: 450px;
+    height: 450px;
+    background: linear-gradient(to bottom,#fa39ad 40%,#fe6c4c 50%);
+    filter: blur(100px);
+    position: absolute;
+    
+}
+.circle1{
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(to bottom, #9172cb, #2f0d4b);
+    filter: blur(100px);
+}
